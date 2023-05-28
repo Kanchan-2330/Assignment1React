@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+button{
+  color: aliceblue;
+  background-color:black;
+  padding: 16px;
+  border-radius:8px;
+  justify-content: center;
+}
+button:hover{
+  background-color: aqua;
+  color:black;
+  cursor: pointer;
+}
+.toggle{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+}
+button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
